@@ -1,0 +1,31 @@
+{
+  "name": "taller-pr-ctico-ingesoft-2",
+  "version": "1.0.0",
+  "description": "Este es el repositorio correspondiente al taller 1 de la asignatura de Ingeniería se Software 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelDavidRuizB/Taller-pr-ctico-Ingesoft-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelDavidRuizB/Taller-pr-ctico-Ingesoft-2/issues"
+  },
+  "homepage": "https://github.com/AngelDavidRuizB/Taller-pr-ctico-Ingesoft-2#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2"
+  }
+}
+
+
