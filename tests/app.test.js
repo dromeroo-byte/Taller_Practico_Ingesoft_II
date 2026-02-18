@@ -16,5 +16,10 @@ const response = await request(app).get('/version');
 expect(response.status).toBe(200);
 expect(response.body.version).toBe('1.0.0');
 });
+test('GET /new_version should return the new version', async () => {
+const response = await request(app).get('/new_version');
+expect(response.status).toBe(200);
+expect(response.body.new_version).toBe('1.0.1');
+});
 });
 
